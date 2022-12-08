@@ -20,7 +20,7 @@ struct Model: KeyOwned {
 - Use Array
 ```swift
 
-let models: [Model] = [
+@KeyArray var models: [Model] = [
     Model(name: "hue"),
     Model(name: "jack"),
     Model(name: "brady")
