@@ -32,7 +32,7 @@ import Foundation
 /// ]
 ///
 /// let name = "hue"
-/// let model = models[name] // if contains name "hue" will return Model that name "hue"
+/// let model = $models[name] // if contains name "hue" will return Model that name "hue"
 ///
 /// //and
 /// //models is same Array
